@@ -340,7 +340,7 @@ chmod +x /usr/bin/ctop 2>&1 | dialog --title "[ Installing ctop ]" $myPROGRESSBO
 # Cloning T-Pot from my Ubuntu 16.04 Repository
 #git clone https://github.com/dtag-dev-sec/tpotce /opt/tpot 2>&1 | dialog --title "[ Cloning T-Pot ]" $myPROGRESSBOXCONF
 # Running following Clone command manually from server terminal- remove # to make next line active when running from Terraforn
-git clone https://github.com/apmoreno/T-Pot_Ubuntu/blob/master/tpotce-17.10 /opt/tpot 2>&1 | dialog --title "[ Cloning T-Pot ]" $myPROGRESSBOXCONF
+git clone https://github.com/apmoreno/tpotce-17.10 /opt/tpot 2>&1 | dialog --title "[ Cloning T-Pot ]" $myPROGRESSBOXCONF
 
 # Let's add a new user
 addgroup --gid 2000 tpot 2>&1 | dialog --title "[ Adding new user ]" $myPROGRESSBOXCONF
